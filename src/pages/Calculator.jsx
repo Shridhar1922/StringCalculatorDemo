@@ -1,5 +1,9 @@
 import React from 'react'
 import  './style.css'
+
+export const add = (numbers) => {
+  
+}
 const Calculator=()=> {
   return (
    <div className="string-calculator-container">
