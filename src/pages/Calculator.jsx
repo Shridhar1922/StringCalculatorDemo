@@ -4,10 +4,20 @@ import  './styles.css'
 export const add = (numbers) => {
 
   if (!numbers) return 0;
-  
+
   numbers = numbers.replace(/\\n/g, '\n');
-  const delimiter = /,|\n/;
+  let delimiter = /,|\n/; 
+  if (numbers.startsWith("//")) {
+    const parts = numbers.split("\n");
+    const delimiterLine = parts[0].slice(2); 
+    delimiter = new RegExp(delimiterLine);   
+    numbers = parts.slice(1).join("\n");     
+  }
   const nums = numbers.split(delimiter).map(Number);
+  const negatives = nums.filter((n) => n < 0);
+  if (negatives.length > 0) {
+    throw new Error(`negative numbers not allowed: ${negatives}`);
+  }
 
   return nums.reduce((sum, n) => sum + n, 0);
 
