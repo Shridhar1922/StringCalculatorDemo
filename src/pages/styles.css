@@ -32,3 +32,15 @@
 .string-button:hover {
   background: #0056b3;
 }
+
+.string-sum{ 
+  margin-top: 15px; 
+  font-size: 18px; 
+  color: green; 
+}
+
+.string-error{ 
+  margin-top: 15px; 
+  font-size: 18px;  
+  color: red; 
+}
