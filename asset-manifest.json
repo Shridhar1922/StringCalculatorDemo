@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/StringCalculatorDemo/static/css/main.4ed4ffcd.css",
+    "main.js": "/StringCalculatorDemo/static/js/main.7b78753f.js",
+    "static/js/453.7ea1099c.chunk.js": "/StringCalculatorDemo/static/js/453.7ea1099c.chunk.js",
+    "static/media/logo.svg": "/StringCalculatorDemo/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/StringCalculatorDemo/index.html",
+    "main.4ed4ffcd.css.map": "/StringCalculatorDemo/static/css/main.4ed4ffcd.css.map",
+    "main.7b78753f.js.map": "/StringCalculatorDemo/static/js/main.7b78753f.js.map",
+    "453.7ea1099c.chunk.js.map": "/StringCalculatorDemo/static/js/453.7ea1099c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ed4ffcd.css",
+    "static/js/main.7b78753f.js"
+  ]
+}
